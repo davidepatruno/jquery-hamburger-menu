@@ -43,6 +43,13 @@
   text-decoration: none;
 }
 
+.rightside > a > i {
+  display: block;
+  height: 50px;
+  color: lightgrey;
+  font-size: 20px;
+}
+
 .bottone {
   padding : 10px;
   color: blue;
