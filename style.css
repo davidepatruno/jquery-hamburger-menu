@@ -1,0 +1,52 @@
+* {
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containerhead {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  position: relative;
+}
+
+.leftside {
+  background-color: blue;
+  width: 30%;
+  float: left;
+}
+
+.leftside > img {
+  height: 50px;
+}
+
+.rightside {
+  background-color: green;
+  width: 60%;
+  height: 50px;
+  float: left;
+}
+
+.rightside > ul {
+  list-style: none;
+  display : flex;
+  justify-content: flex-end;
+}
+
+.rightside > ul > li {
+  margin-right: 40px;
+  margin-top: 15px;
+}
+
+.rightside > ul > li a {
+  text-decoration: none;
+}
+
+.bottone {
+  padding : 10px;
+  color: blue;
+  background-color: orange;
+  border: 2px solid transparent;
+  border-radius: 3px;
+}

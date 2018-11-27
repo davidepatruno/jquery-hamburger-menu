@@ -1,0 +1,1 @@
+$('hamburghermenu').hide();
